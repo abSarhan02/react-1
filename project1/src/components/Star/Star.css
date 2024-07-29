@@ -1,0 +1,29 @@
+.star {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    margin: auto;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.star::after {
+    content: "";
+    width: 65px;
+    height: 5px;
+    right: 0rem;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+}
+.star::before {
+    content: "";
+    width: 65px;
+    height: 5px;
+    left: 0rem;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+}
